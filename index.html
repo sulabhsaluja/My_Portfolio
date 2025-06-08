@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sulabh Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left"><a href="index.html">Sulabh's Portfolio</a></div>
+        <div
+          class="hamburger"
+          onclick="toggleMenu()"
+          aria-label="Toggle navigation menu"
+        >
+          &#9776;
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="first">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Sulabh Saluja</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn"><a href="contact.html">Contact Me</a></button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="bg0.png" alt="Background" loading="lazy" />
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>My Projects</h1>
+        <div class="projects">
+          <div class="project">
+            <h3>InternSpot - Job Portal Website</h3>
+            <p>
+              InternSpot is a platform designed to connect students with
+              internship opportunities, providing a streamlined application
+              process and resources for career development. It aims to empower
+              the next generation of professionals by facilitating meaningful
+              work experiences and skill-building.
+            </p>
+            <div class="project-links">
+              <a href="internspot.onrender.com" target="_blank">Live Demo</a>
+            </div>
+          </div>
+
+          <div class="project">
+            <h3>To-Do List</h3>
+            <p>
+              A simple web app to manage tasks. Users can add, edit, and delete
+              tasks, as well as mark them as complete. It's a clean, easy-to-use
+              tool for staying organized.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://sulabhsaluja.github.io/To-Do-List/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+
+          <div class="project">
+            <h3>Calculator</h3>
+            <p>
+              A basic web-based calculator that performs arithmetic operations
+              like addition, subtraction, multiplication, and division. It
+              features a simple and user-friendly interface.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://sulabhsaluja.github.io/Calculator/calculator.html"
+                target="_blank"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <h3>Qoute-Generator</h3>
+            <p>
+              A basic web-based quote generator that displays random
+              inspirational or motivational quotes. It features a simple and
+              user-friendly interface with a button to generate a new quote each
+              time it's clicked.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://sulabhsaluja.github.io/Random-Quote-Generator/"
+                target="_blank"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <h3>Coffee Billing System</h3>
+            <p>
+              A web app that enables customers to place orders and automatically
+              calculate the total cost for coffee shop billing.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://sulabhsaluja.github.io/Restaurant-Billing-System/"
+                target="_blank"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <h3>BMI Calculator</h3>
+            <p>
+              A simple web app to calculate Body Mass Index (BMI) based on user
+              input of height and weight.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://sulabhsaluja.github.io/BMI-Calculator/"
+                target="_blank"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <h3>SuperCell Clone Website</h3>
+            <p>
+              A browser-based game inspired by Supercell, featuring strategy
+              battles, base building, and resource management for an engaging
+              experience.
+            </p>
+            <div class="project-links">
+              <a href="#" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section footer-first">
+          <h3>Sulabh's Developer Portfolio</h3>
+        </div>
+        <div class="footer-section footer-second">
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/sulabh-saluja-a3b50329a"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-linkedin"></i> LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/sulabhsaluja"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://leetcode.com/Sulabh_Saluja"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="leetcode.jpg" alt="LeetCode" class="leetcode-logo" />
+                LeetCode
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section footer-rights">
+          <p>Copyright &#169; www.sulabhsportfolio.com | All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Problem Solver", "Tech Enthusiast"],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true,
+      });
+
+      function toggleMenu() {
+        const right = document.querySelector(".right");
+        right.classList.toggle("active");
+      }
+
+      const navLinks = document.querySelectorAll("nav ul li a");
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          const right = document.querySelector(".right");
+          right.classList.remove("active");
+        });
+      });
+    </script>
+  </body>
+</html>

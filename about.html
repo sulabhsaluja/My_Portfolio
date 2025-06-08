@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Sulabh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left"><a href="index.html">Sulabh's Portfolio</a></div>
+        <div
+          class="hamburger"
+          onclick="toggleMenu()"
+          aria-label="Toggle navigation menu"
+        >
+          &#9776;
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="about-container">
+        <h1>About Me</h1>
+        <div class="about-content">
+          <div class="about-text">
+            <h2>Hi, I'm Sulabh</h2>
+            <p>
+              I am a passionate web developer and problem solver with a love for
+              creating innovative and user-friendly applications. My journey in
+              tech started with a curiosity for how things work, and it has
+              grown into a full-fledged career. I specialize in front-end
+              development, but I also enjoy dabbling in back-end technologies
+              and graphic design.
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring new technologies,
+              solving problems on LeetCode, or working on personal projects. I
+              believe in continuous learning and always strive to improve my
+              skills.
+            </p>
+          </div>
+          <div class="about-image">
+            <img src="my_image.jpg" alt="Sulabh's Photo" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="skills-section">
+          <h2>My Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="fas fa-code"></i>
+              <h3>Web Development</h3>
+              <p>
+                Building responsive and dynamic websites using HTML, CSS,
+                JavaScript, and modern frameworks.
+              </p>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-palette"></i>
+              <h3>Graphic Design</h3>
+              <p>
+                Creating visually appealing designs using tools like Adobe
+                Photoshop and Figma.
+              </p>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-cogs"></i>
+              <h3>Problem Solving</h3>
+              <p>
+                Solving complex problems with efficient algorithms and data
+                structures.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-section">
+          <h2>My Journey</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <h3 class="timeline-heading">
+                  Sem 1 - Started Learning Web Development
+                </h3>
+                <p class="timeline-text">
+                  Began my journey into web development with HTML, CSS, and
+                  JavaScript.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <h3 class="timeline-heading">
+                  Sem 2 - Worked on Personal Projects
+                </h3>
+                <p class="timeline-text">
+                  Built several projects including a To-Do List, Calculator, and
+                  Coffee Billing System.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <h3 class="timeline-heading">
+                  Sem 3 - Focused on Problem Solving
+                </h3>
+                <p class="timeline-text">
+                  Started solving problems on LeetCode and participated in
+                  coding challenges.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section footer-first">
+          <h3>Sulabh's Developer Portfolio</h3>
+        </div>
+        <div class="footer-section footer-second">
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/sulabh-saluja-a3b50329a"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-linkedin"></i> LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/sulabhsaluja"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://leetcode.com/Sulabh_Saluja"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="leetcode.jpg" alt="LeetCode" class="leetcode-logo" />
+                LeetCode
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section footer-rights">
+          <p>Copyright &#169; www.sulabhsportfolio.com | All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        const menu = document.querySelector(".right");
+        menu.classList.toggle("active");
+      }
+
+      document.querySelectorAll(".timeline-item h3").forEach((item) => {
+        item.addEventListener("click", () => {
+          const parent = item.closest(".timeline-item");
+          parent.classList.toggle("active"); // Toggle the active class to show/hide content
+        });
+      });
+    </script>
+  </body>
+</html>
